@@ -1,0 +1,296 @@
+
+body, html {
+  height: 100%;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: Arial, sans-serif;
+}
+
+.login-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #fff;
+  margin: auto;
+  padding: 40px;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.logo {
+  width: 100px;
+  margin-bottom: 20px;
+}
+
+.login-form {
+  display: flex;
+  flex-direction: column;
+  width: 300px;
+}
+
+.login-form input {
+  margin-bottom: 20px;
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.login-form button {
+  padding: 10px;
+  font-size: 16px;
+  background-color: #4CAF50; 
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.login-form button:hover {
+  background-color: #45a049; 
+}
+
+
+
+/* Global Styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f5f5f5;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+/* Top Bar */
+.top-bar {
+  width: 100%;
+  background-color: #333;
+  padding: 15px 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: white;
+}
+
+.top-bar .logo img {
+  height: 40px;
+}
+
+.top-bar .user-info {
+  display: flex;
+  align-items: center;
+}
+
+.top-bar .user-info span {
+  margin-right: 20px;
+}
+
+.top-bar .user-info a {
+  color: white;
+  text-decoration: none;
+}
+
+.top-bar .user-info a:hover {
+  text-decoration: underline;
+}
+
+/* Form Styles */
+.employee-form {
+  background-color: white;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  margin-top: 20px;
+}
+
+.employee-form h1 {
+  margin-bottom: 20px;
+}
+
+.employee-form input[type="text"],
+.employee-form input[type="email"],
+.employee-form input[type="file"],
+.employee-form select {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.employee-form button {
+  background-color: lightgrey;
+  color: black;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+.employee-form button:hover {
+  background-color: black;
+  color: white;
+}
+
+/* Table Styles (Employee List) */
+.employee-list table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+.employee-list th, .employee-list td {
+  padding: 12px;
+  text-align: left;
+  border: 1px solid #ddd;
+}
+
+.employee-list th {
+  background-color: #f2f2f2;
+}
+
+.employee-list td img {
+  width: 50px;
+  height: 50px;
+  object-fit: cover;
+}
+
+.employee-list button {
+  background-color: lightgrey;
+  color: black;
+  border: none;
+  padding: 5px 10px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+.employee-list button:hover {
+  background-color: black;
+  color: white;
+}
+
+.employee-list a {
+  background-color: lightgrey;
+  margin-right: 4px;
+  color: black;
+  border: none;
+  padding: 5px 10px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+.employee-list a:hover {
+  color: white;
+  background-color: black;
+  padding: 5px 10px;
+  border-radius: 5px;
+}
+
+
+
+/* Search Bar */
+.employee-actions {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.employee-actions input[type="text"] {
+  padding: 10px;
+  width: 300px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.employee-actions .create-employee-btn {
+  background-color: lightgrey;
+  color: black;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.employee-actions .create-employee-btn:hover {
+  background-color: black;
+  color: white;
+}
+
+
+/* Top Bar */
+.top-bar {
+  width: 100%;
+  background-color: #333;
+  padding: 15px 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: white;
+}
+
+.top-bar .logo img {
+  height: 100px;
+  margin-left: 10px;
+  padding-left: 10px;
+  padding-top: 10px;
+}
+
+.top-bar .nav-links {
+  display: flex;
+  gap: 20px;
+}
+
+.top-bar .nav-links a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.top-bar .nav-links a:hover {
+  text-decoration: underline;
+}
+
+.top-bar .user-info {
+  display: flex;
+  gap: 15px;
+  align-items: center;
+}
+
+.top-bar .user-info span {
+  margin-right: 10px;
+}
+
+.top-bar .user-info a {
+  background-color: lightgrey;
+  color: black;
+  padding: 10px 15px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-right: 15px;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+.top-bar .user-info a:hover {
+  background-color: black;
+  color: white;
+}
+
+
+
